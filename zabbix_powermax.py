@@ -8,7 +8,7 @@ import argparse
 import traceback
 import logging
 import logging.handlers
-from pyzabbix import ZabbixMetric, ZabbixSender
+from pyzabbix.sender import ZabbixMetric, ZabbixSender
 
 # Update to include your Zabbix Server IP and Port
 zabbix_ip = "192.168.1.64"
